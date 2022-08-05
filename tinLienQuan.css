@@ -1,0 +1,103 @@
+.SimilarArticleControl {
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.SimilarArticleControl .ModuleTitle {
+    background: url("https://storage-vnportal.vnpt.vn/cmu-khdn/1/HinhAnh/tinlienquan.png") no-repeat scroll left center;
+    border-bottom: 2px solid #da1c1c;
+    color: #da1c1c;
+    line-height: 32px;
+    font-weight: bold;
+    padding-left: 45px;
+}
+
+.SimilarArticleControl a {
+    color: #222;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.ArticleTitle {
+    /* font-weight: 600; */
+}
+
+.SimilarArticleControl a:hover {
+    color: #8e1618;
+}
+
+.SimilarArticleControl ul.ArticleList {
+    color: #da1c1c;
+    list-style: none;
+    padding: 0;
+}
+
+.SimilarArticleControl .ItemClear {
+    list-style: outside none none;
+}
+
+.SimilarArticleControl li.ListItem {
+    clear: both;
+    margin: 0;
+    padding-left: 10px;
+    background: url(https://storage-vnportal.vnpt.vn/cmu-khdn/1/HinhAnh/icon-listnew.png) no-repeat left 5px;
+    margin: 10px 0;
+}
+
+.SimilarArticleControl .ArticlePostDate,
+.ArticleViewCount {
+    float: left;
+    margin-bottom: 8px;
+    margin-right: 20px;
+    font-size: 13px;
+    font-style: italic;
+}
+
+.SimilarArticleControl .ArticleList .ListItem .ArticlePostDate {}
+
+.SimilarArticleControl .ArticleList .GridItem {
+    display: block;
+    float: left;
+    height: 140px;
+    list-style-position: outside;
+    margin: 4px;
+    padding: 5px;
+    text-align: center;
+    width: 118px;
+}
+
+.SimilarArticleControl .ArticleList .GridItem .ArticleImage {
+    display: none;
+    height: 80px;
+    margin-bottom: 5px;
+    width: 120px;
+}
+
+.SimilarArticleControl .ArticleList .GridItem .ArticleTitle:hover {
+    color: #ff4e00;
+}
+
+.SimilarArticleControl .ArticleList .ItemClear {
+    clear: both;
+}
+
+.SimilarArticleControl .CurrentPage {
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ff4e00;
+}
+
+.SimilarArticleControl .ButtonPage {
+    cursor: pointer;
+    padding: 0 5px;
+    font-size: 13px;
+    font-weight: bold;
+}
