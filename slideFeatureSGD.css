@@ -1,0 +1,141 @@
+.SliderFeature {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    /* margin: 10px 0 10px; */
+    padding: 5px;
+    position: relative;
+}
+
+.SliderFeature .RightCol {
+    background: #ffffff none repeat scroll 0 0;
+    vertical-align: top;
+    width: 45%;
+}
+
+.SliderFeature .LeftCol {
+    padding-right: 10px !important;
+    text-align: justify;
+    vertical-align: top;
+    width: 61%;
+}
+
+.SliderFeature .LeftPanel {
+    overflow: hidden;
+    position: relative;
+    width: 100% !important;
+}
+
+.SliderFeature .LeftCol .LeftPanel img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.SliderFeature .LeftCol .text {
+    background-color: rgba(255, 255, 255, 0.7);
+    bottom: 0;
+    height: 65px;
+    color: Black;
+    font: bold 20px Arial;
+    left: 0;
+    margin-bottom: 0;
+    position: absolute;
+    text-align: left;
+    width: 100%;
+    z-index: 1;
+    line-height: 30px;
+}
+
+.SliderFeature .LeftCol .text div {
+    color: #444;
+    display: inline-block;
+    padding: 6px;
+}
+
+.SliderFeature .ArticleList li a {
+    line-height: 30px;
+    color: #000;
+}
+
+.SliderFeature .ArticleList li a:hover {
+    text-decoration: none;
+}
+
+.SliderFeature .ArticleList {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.SliderFeature .ArticleList li:hover a {
+    color: #fff;
+}
+
+.SliderFeature .ArticleList li {
+    border-bottom: 1px dotted #ccc;
+    line-height: 30px;
+    display: inline-block;
+    /* padding: 3px 0; */
+    width: 100%;
+}
+
+.SliderFeature .ArticleList .ArticleItemSelected {
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.SliderFeature .ArticleList .ArticleItemSelected a {
+    color: #8e1618;
+    display: inline-block;
+    font-size: 13px;
+    font-family: Arial;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.SliderFeature .ArticleList li:hover {
+    background-color: #8e1618;
+}
+
+.SliderFeature .ArticleList li .Image {
+    float: left;
+    height: 86px;
+    margin-right: 10px;
+    text-align: left;
+    width: 120px;
+}
+
+.SliderFeature .Header {
+    display: none;
+}
+
+.SliderFeature .Header .lblHeader {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .ArticleSlider {
+        width: 100% !important;
+    }
+    .SliderFeature .LeftCol .text {
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .SliderFeature .LeftCol .LeftPanel img {
+        width: 100% !Important;
+    }
+    .SliderFeature .LeftCol,
+    .SliderFeature .RightCol {
+        width: 100% !Important;
+        display: block;
+    }
+    .SliderFeature .RightCol {
+        display: inline-block;
+        position: relative;
+    }
+}

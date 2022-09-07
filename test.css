@@ -1,0 +1,78 @@
+* {
+    text-rendering: geometricprecision;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: url("Images/hot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.MainStructure {
+    background: url("Images/hot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.35);
+}
+
+.MainStructure .TopBanner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.MainStructure .TopBar {
+    text-align: justify;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+}
+
+.MainStructure .ContentBanner {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.MainStructure .MainContent {
+    background: #fff;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.MainStructure .LeftBar {
+    padding: 15px 10px;
+    vertical-align: top;
+    display: inline-block !important;
+}
+
+.MainStructure .ContentBar {
+    vertical-align: top;
+    background-color: #eee;
+}
+
+.MainStructure .FooterBanner {
+    background: url(https://storage-vnportal.vnpt.vn/test-atbm/2579/Hinhanh/trong-dong-o.png);
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #932727;
+}
+
+.MainStructure .FooterBar {
+    border-radius: 0 0 10px 10px;
+    display: inline-block;
+    text-align: justify;
+}
+
+@media only screen and (max-width: 768px) {
+    .MainStructure .MainContent {
+        width: 100% !important;
+    }
+    .MainStructure .LeftBar {
+        padding: 0;
+        display: inline-block !important;
+    }
+    .bottom-tool {
+        display: none !important;
+    }
+}

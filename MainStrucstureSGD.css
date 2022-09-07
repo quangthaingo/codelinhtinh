@@ -1,0 +1,83 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+a {
+    color: #424242;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+img {
+    border: medium none;
+}
+
+.MainStructure {
+    background: rgba(0, 0, 0, 0) url("Images/topsgd.png") repeat-x scroll left top;
+    text-align: center;
+}
+
+.MainStructure .TopBanner {
+    margin: 0 auto;
+    width: 1280px;
+}
+
+.MainStructure .TopBar {
+    margin: 0 auto;
+    position: relative;
+    text-align: justify;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.MainStructure .ContentBanner {
+    background: #fff none repeat scroll 0 0;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.MainStructure .MainContent {
+    display: inline-table;
+    margin: 0 auto;
+    padding: 8px 0;
+    vertical-align: top;
+    width: 1280px;
+}
+
+.MainStructure .LeftBar {
+    padding: 0 10px 0 0;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.MainStructure .ContentBar {
+    padding: 0;
+    text-align: justify;
+    vertical-align: top;
+}
+
+.MainStructure .FooterBanner {
+    background: #fff none repeat scroll 0 0;
+    border-top: 6px solid #8e1618;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+.MainStructure .FooterBar {
+    margin: 0 auto;
+    text-align: justify;
+    width: 100%;
+}
+
+@media screen and (max-width:768px) {
+    .MainStructure .LeftBar {
+        display: block !important;
+    }
+    .bottom-tool {
+        display: none;
+    }
+}
