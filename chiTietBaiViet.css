@@ -1,0 +1,158 @@
+.ArticleDetailControl {
+    display: inline-block;
+    padding: 10px;
+    text-align: justify;
+    width: 100%;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e5e6e9 #dfe0e4 #d0d1d5;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.ArticleDetailControl .tool {
+    height: 40px;
+    background: #f3f3f4;
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.ArticleDetailControl .tool span.font_plus {
+    background: url(Images/up.png) no-repeat 0 0;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ArticleDetailControl .tool span.font_minus {
+    background: url(Images/down.png) no-repeat 0 0;
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: top;
+}
+
+.ArticleDetailControl .tool .print {
+    background: url(Images/p.png) no-repeat left top;
+    width: 90px;
+    height: 31px;
+    display: inline-block;
+    margin-right: 15px;
+    vertical-align: top;
+    line-height: 31px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #0051a0;
+    display: none;
+}
+
+.ArticleDetailControl .tool .audio {
+    background: url(Images/audio.png) no-repeat 0 0;
+    width: 45px;
+    height: 35px;
+    border: none;
+    cursor: pointer;
+    display: none;
+}
+
+.ArticleDetailControl .ArticleContent>table {
+    margin: 0 !important;
+    width: 100% !important;
+}
+
+.ArticleDetailControl .PostDate,
+.Poster {
+    color: #424242;
+    text-align: right;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.ArticleDetailControl .ArticleHeader {
+    color: #004f80;
+    font-size: 22px;
+    text-align: left;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.ArticleDetailControl .ArticleSummary {
+    text-align: justify;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.ArticleDetailControl .ImgDetailImage {
+    display: none;
+    height: auto !important;
+    margin-bottom: 20px;
+    max-width: 450px !important;
+    vertical-align: top;
+}
+
+.ArticleDetailControl .ArticleContent img {
+    height: auto !important;
+    width: 100% !important;
+}
+
+.ArticleDetailControl .ArticleContent {
+    clear: both;
+}
+
+.ArticleDetailControl .ArticleContent table {
+    border-collapse: collapse;
+}
+
+.ArticleDetailControl .ArticleContent table td {
+    padding: 5px;
+}
+
+.ArticleDetailControl .EmptyNote {
+    color: #ff6a00;
+    font-size: 18px;
+}
+
+.ArticleDetailControl .UtilBar {
+    padding: 20px 0;
+    text-align: right;
+}
+
+.ArticleDetailControl .UtilBar .Print {
+    background: rgba(0, 0, 0, 0) url("Images/print.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    margin-right: 10px;
+    width: 22px;
+}
+
+.ArticleDetailControl .UtilBar .Email {
+    background: rgba(0, 0, 0, 0) url("Images/email.png") no-repeat scroll center center;
+    cursor: pointer;
+    display: inline-block;
+    height: 22px;
+    width: 22px;
+}
+
+.ArticleDetailControl .UISocialShare .facebook,
+.likefacebook,
+.gplus {
+    float: left;
+    margin-right: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.author {
+    text-align: right;
+}
+
+.author .name-author {
+    font-weight: bold;
+}

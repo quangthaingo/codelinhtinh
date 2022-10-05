@@ -1,0 +1,172 @@
+.VerticalMenuControl li a {
+    display: inline-block;
+}
+
+.VerticalMenuControl li span {
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.VerticalMenuControl {
+    margin-bottom: 10px;
+}
+
+.VerticalMenuControl ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.VerticalMenuControl .MenuList .top>a {
+    color: #fff;
+    display: flex;
+    padding-left: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: normal;
+    height: 42px;
+    text-transform: uppercase;
+    align-items: center;
+}
+
+.VerticalMenuControl ul .sublink {
+    list-style: outside none none;
+}
+
+.VerticalMenuControl .Menulist {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.VerticalMenuControl .MenuList li.top {
+    margin: 0 0 15px 0;
+    padding: 0;
+    position: relative;
+    background-color: #9F224E;
+}
+
+.VerticalMenuControl .MenuList li.top>span.toggle {
+    display: none;
+}
+
+.VerticalMenuControl .MenuList li.top:last-child {
+    border-radius: 0 0 10px;
+}
+
+.VerticalMenuControl .MenuList>.top>a {
+    display: flex;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    white-space: normal;
+    height: 42px;
+    text-transform: uppercase;
+    align-items: center;
+    text-decoration: none;
+    background: url(https://storage-vnportal.vnpt.vn/hgg-sogddt/9108/Icon/icon-site.png);
+    background-repeat: no-repeat;
+    background-position: 10px 0px;
+}
+
+.VerticalMenuControl .MenuList .top .second {
+    display: block;
+    background: #e1edf3;
+    padding: 5px 10px;
+    padding-left: 10px;
+}
+
+.VerticalMenuControl .MenuList .second .sub {
+    border-bottom: none;
+    background-repeat: no-repeat;
+    background-image: url(images/icon-listnew.png);
+    background-position: left 15px;
+    padding-left: 10px;
+}
+
+.VerticalMenuControl .MenuList .dropdown {
+    top: 0;
+    width: auto;
+    z-index: 50;
+    height: auto;
+    overflow: visible !important;
+    /* display: block !important; */
+    transition: 0.3s;
+}
+
+.VerticalMenuControl .MenuList .dropdown .sub {
+    background-color: #fff;
+    display: block;
+    position: relative;
+    height: 42px;
+    border-bottom: 1px dotted #73a0bc;
+    background: #ffffff url(https://moet.govhttps://storage-vnportal.vnpt.vn/cmu-khdn/1/HinhAnh/icon-listnew.png.vn/Publishing_Resources/web/images/icon-listnew.png) no-repeat scroll left 15px;
+    padding-left: 10px;
+    background-position-y: 15px;
+}
+
+.VerticalMenuControl .MenuList .dropdown .sub:hover {
+    background: #2c72c6;
+}
+
+.VerticalMenuControl .MenuList .dropdown .sub:hover a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.title-cat {
+    color: #333 !important;
+    line-height: 42px;
+}
+
+.VerticalMenuControl .MenuList .dropdown .sub .dropdown {
+    /* position: absolute; */
+    width: 200px;
+    left: 100%;
+    bottom: 100%;
+}
+
+.VerticalMenuControl ul.second li a {
+    padding: 0 10px;
+    text-transform: none!important;
+    width: 100%;
+    display: flex;
+    color: #004f80;
+    font-size: 13px;
+    align-items: center;
+    padding-left: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    line-height: 1.6;
+    font-weight: bold;
+}
+
+.has-sub {
+    color: #fff !important;
+    line-height: 42px;
+}
+
+.dropdown .sub a {
+    color: #333;
+    line-height: 42px;
+}
+
+.VerticalMenuControl ul.second li+li>a {
+    border-top: 1px dotted #73a0bc;
+}
+
+.VerticalMenuControl .MenuList .top .hassub {
+    background: url("Images/d.png") no-repeat scroll right center rgba(0, 0, 0, 0);
+    width: 85%;
+}
+
+@media only screen and (max-width: 768px) {
+    div.VerticalMenuControl {
+        padding: 0 10px !important;
+        display: none;
+    }
+    .VerticalMenuControl .MenuList li.top {
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+.DropdownMenu {
+    background: rgba(0, 0, 0, 0) url("Images/vangtop.png") repeat-x scroll left top;
+    border-radius: 15px;
+    box-shadow: 0 20px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 0 #d7b804;
+    height: 40px;
+    margin: 0;
+    width: 1060px;
+}
+
+.DropdownMenu ul {
+    height: 40px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.DropdownMenu .MenuList .TopMenu:hover,
+.TopMenuActive {
+    padding: 0 10px;
+    position: relative;
+}
+
+.DropdownMenu .MenuList li {
+    border-radius: 3px;
+    float: left;
+    padding: 0 10px;
+    position: relative;
+}
+
+.DropdownMenu .MenuList li span {
+    font-family: 'Coiny', cursive;
+    font-size: 16px;
+}
+
+.DropdownMenu .MenuList .TopMenu a:hover,
+.TopMenuActive a:hover,
+.TopMenu:hover a {
+    color: #4b049d;
+}
+
+.DropdownMenu .MenuList .TopMenu a {
+    color: #bd251e;
+    font: 20px/37px 'Coiny', cursive;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.DropdownMenu .MenuList .TopMenuActive a {
+    color: #4b049d;
+    font: 20px/37px 'Coiny', cursive;
+    text-decoration: none;
+}
+
+.DropdownMenu .MenuList .TopMenu .HasChildren,
+.TopMenuActive .HasChildren {
+    background: rgba(0, 0, 0, 0) url("Images/d.png") no-repeat scroll center bottom;
+    display: block;
+}
+
+.DropdownMenu .MenuList .Dropdown {
+    background: #eaf6fc none repeat-x scroll left top;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    height: auto;
+    left: -10px;
+    position: absolute;
+    text-align: left;
+    top: 98%;
+    width: auto;
+    z-index: 1000;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover {
+    background: #dbefcc none repeat scroll 0 0;
+    border-radius: 10px;
+    color: #333;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover a {
+    color: #333;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover .Popup .sub a {
+    color: #bd251e;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover .Popup .sub:hover a {
+    color: #333;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub {
+    display: block;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub a {
+    color: #bd251e;
+    display: block;
+    margin: 0;
+    padding: 0 12px;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
+    font-size: 15px;
+    line-height: 37px;
+    font-family: 'Coiny', cursive;
+}
+
+.DropdownMenu .MenuList .Popup {
+    background: #ecedef none repeat scroll 0 0;
+    display: inline-block;
+    left: 98%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 1001;
+    background: #eaf6fc none repeat-x scroll left top;
+    border-radius: 15px;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+    height: auto;
+    text-align: left;
+}
+
+.DropdownMenu .MenuList .Dropdown .Popup .sub span {
+    padding: 0 10px;
+}
+
+.DropdownMenu .MenuList .Popup .sub:hover {
+    background: #dbefcc none repeat-x scroll left top;
+}
+
+.DropdownMenu .MenuList .Popup .sub {
+    position: relative;
+}
+
+.DropdownMenu .MenuList .Popup .sub a {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.DropdownMenu .AdvanceBar {
+    background: #cfcfcf url("Images/advance_bg.png") repeat-x scroll 0 0;
+    display: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    .DropdownMenu {
+        border-bottom: 0px !important;
+    }
+    .DropdownMenu ul.MenuList li a span {
+        font-size: 13px;
+    }
+    div.DropdownMenu {
+        width: unset !important;
+        position: static !important;
+        order: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 5px 0;
+        background: rgba(0, 0, 0, 0) url(Images/vangtop.png) repeat-x scroll left top;
+        border-radius: 0;
+    }
+    div.DropdownMenu>ul.MenuList {
+        max-height: 50vh !important;
+        width: 100% !important;
+        height: auto !important;
+        box-shadow: none;
+        order: 2;
+        margin-top: 4px !important;
+        padding: 10px !important;
+        left: 0;
+        z-index: 0;
+        border: 1px solid #eeeeee;
+        border-top: 0;
+    }
+    .DropdownMenu div.navbar-button {
+        position: static;
+        background: transparent;
+        margin: 0px;
+        border-left: 1px solid #eeeeee;
+        margin-right: 0px;
+        margin-left: 0;
+        order: 1;
+        padding: 0px 5px !important;
+        height: 25px;
+        width: 55px !important;
+        z-index: 1;
+    }
+    .DropdownMenu .MenuList .TopMenu:hover,
+    .TopMenuActive {
+        background: none !important;
+    }
+    .DropdownMenu .MenuList .TopMenuActive a {
+        color: #333 !important;
+    }
+}

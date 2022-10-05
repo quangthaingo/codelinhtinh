@@ -1,0 +1,259 @@
+.DropdownMenu {
+    text-align: center;
+    width: 100%;
+    background: #9f224e;
+    box-shadow: 0 3px 3px 0 #caccd2;
+}
+
+.DropdownMenu ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.DropdownMenu .MenuList .Dropdown li:first-child {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+
+.DropdownMenu .MenuList li:last-child {
+    border: medium none;
+}
+
+.DropdownMenu .MenuList .TopMenu,
+.DropdownMenu .MenuList .TopMenuActive {
+    list-style: outside none none;
+    position: relative;
+    height: 100%;
+}
+
+.DropdownMenu .MenuList>li:nth-child(1)>a::before {
+    content: "\f015";
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+}
+
+.DropdownMenu .MenuList .TopMenu a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    line-height: 42px;
+}
+
+.DropdownMenu .MenuList .TopMenuActive a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    line-height: 40px;
+}
+
+.DropdownMenu .MenuList .TopMenu .HasChildren,
+.TopMenuActive .HasChildren {
+    background: rgba(0, 0, 0, 0) url("Images/d.png") no-repeat scroll center bottom 6px;
+    display: block;
+}
+
+.DropdownMenu .MenuList .Dropdown {
+    background: #9f224e none repeat-x scroll left top;
+    display: inline-block;
+    left: -10px;
+    position: absolute;
+    text-align: left;
+    top: 43px;
+    min-width: 300px;
+    z-index: 1000;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover {
+    background: #f9e5e5 none repeat scroll 0 0;
+    color: #333;
+    cursor: pointer;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub:hover a {
+    color: #333;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub+.sub {
+    border-top: 1px solid #af224e;
+}
+
+.DropdownMenu .MenuList .Dropdown .sub a {
+    color: #fff;
+    display: block;
+    height: 35px;
+    margin: 0;
+    padding: 0 12px;
+    text-decoration: none;
+    text-transform: none;
+    white-space: nowrap;
+    line-height: 35px;
+}
+
+.DropdownMenu .MenuList .Popup {
+    background: #ecedef none repeat scroll 0 0;
+    display: inline-block;
+    left: 98%;
+    position: absolute;
+    top: 0;
+    width: auto;
+    z-index: 1001;
+}
+
+.DropdownMenu .MenuList .Dropdown .Popup .sub span {
+    color: #333;
+    padding: 0 10px;
+    text-transform: none;
+    white-space: nowrap;
+}
+
+.DropdownMenu .MenuList .Popup .sub:hover {
+    background: #cdcdcd none repeat-x scroll left top;
+}
+
+.DropdownMenu .MenuList .Popup .sub {
+    position: relative;
+}
+
+.DropdownMenu .MenuList .Popup .sub a {
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.DropdownMenu .AdvanceBar {
+    background: #cfcfcf url("Images/advance_bg.png") repeat-x scroll 0 0;
+    display: none;
+    height: 30px;
+    line-height: 30px;
+}
+
+.DropdownMenu .MenuList img {
+    width: 17px;
+    height: 17px;
+}
+
+.DropdownMenu .MenuList>li:nth-child(1)>a>span {
+    display: none;
+}
+
+.DropdownMenu .MenuList>li+li {
+    position: relative;
+    display: flex;
+}
+
+.DropdownMenu .MenuList>li+li:before {
+    content: '|';
+    line-height: 40px;
+    color: #f68e92;
+}
+
+.DropdownMenu .MenuList>li>a {
+    padding: 0 10px;
+}
+
+.DropdownMenu .MenuList>li {
+    display: flex !important;
+    align-items: center;
+}
+
+.DropdownMenu .MenuList {
+    display: flex !important;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    height: 42px;
+    flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+    .DropdownMenu .TopMenuActive::after {
+        width: 100%;
+    }
+    .DropdownMenu ul.MenuList li a {
+        padding: 0px !important;
+        color: #fff !important;
+    }
+    .DropdownMenu .MenuList>li:nth-child(1)>a>span {
+        color: #fff !important;
+    }
+    .DropdownMenu {
+        border: none;
+    }
+    .DropdownMenu div.navbar-button {
+        position: static;
+        background: transparent;
+        margin: 0px;
+        margin-right: 0px;
+        margin-left: 0;
+        order: 1;
+        padding: 0px 14px !important;
+        z-index: 1;
+        background-color: #9f224e;
+    }
+    .DropdownMenu {
+        width: unset !important;
+        position: static !important;
+        order: 4;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        padding: 5px 0;
+        margin-bottom: 10px !important;
+    }
+    .DropdownMenu .MenuList {
+        background-color: #9f224e !important;
+    }
+    .DropdownMenu .navbar-button span {
+        background: #ffffff !important;
+        width: 14px !important;
+        height: 2px !important;
+        margin: 1.5px !important;
+    }
+    div.DropdownMenu>ul.MenuList {
+        max-height: 50vh !important;
+        width: 100% !important;
+        height: auto !important;
+        box-shadow: none;
+        order: 2;
+        margin-top: 4px !important;
+        padding: 10px !important;
+        left: 0;
+        z-index: 0;
+        border: 1px solid #eeeeee;
+        border-top: 0;
+    }
+    .DropdownMenu .navbar-button span[style="margin: -2px; transform: rotate(45deg);"] {
+        background: white !important;
+        height: 2px;
+        margin: -1px !important;
+    }
+    .DropdownMenu .navbar-button span[style="margin: -2px; transform: rotate(-45deg);"] {
+        background: white !important;
+        height: 2px;
+        margin: -1px !important;
+    }
+    .DropdownMenu .TopMenu span,
+    .DropdownMenu .TopMenuActive span {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        color: #fff;
+    }
+    .DropdownMenu .TopMenuActive::after {
+        display: none;
+    }
+    .DropdownMenu ul.MenuList li a span {
+        flex: none !important;
+    }
+    .DropdownMenu .MenuList>li+li:before {
+        display: none;
+    }
+}
