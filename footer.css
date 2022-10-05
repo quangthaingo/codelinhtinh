@@ -1,0 +1,34 @@
+.UIFooterControl {
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+.UIFooterControl p {
+    font-size: 20px;
+}
+
+.UIFooterControl a {
+    font-size: 20px;
+    color: #000;
+}
+
+.UIFooterControl a:hover {
+    text-decoration: none;
+}
+
+.bottom_left {
+    float: left;
+}
+
+.bottom_right {
+    height: 88px;
+    width: 115px;
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    .UIFooterControl img {
+        width: auto !important;
+    }
+}

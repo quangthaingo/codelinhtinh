@@ -1,0 +1,242 @@
+.MultipleTabExt .Wrap {
+    border-radius: 0 5px 0 0;
+    padding: 10px 5px;
+}
+
+.MultipleTabExt {
+    background: #ffffff none repeat scroll 0 0;
+    border-radius: 5px 0 0;
+    margin-bottom: 8px;
+    box-shadow: 0px 1px 7px #b7b7b7;
+}
+
+.MultipleTabExt .Header {
+    height: 33px;
+    padding: 0 8px;
+    background: #0071A6 !important;
+    min-height: 41px !important;
+    position: relative;
+    margin: 0 0 0 -6px;
+}
+
+.MultipleTabExt .Header:before {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-color: transparent;
+    bottom: -8px;
+    border-width: 0 6px 8px 0;
+    border-right-color: #8e1618 !important;
+    left: 0;
+}
+
+.MultipleTabExt .Header .HeadWraper {}
+
+.MultipleTabExt .Header .HeadWraper ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.MultipleTabExt .Header .HeadWraper .Primary {
+    display: inline-block;
+    background: url(Images/r.png) no-repeat center right, url(Images/c.png) repeat-x;
+    padding-right: 25px;
+}
+
+.MultipleTabExt .Header .HeadWraper li {
+    display: inline-block;
+    height: 30px;
+}
+
+.MultipleTabExt .Header .HeadWraper .Sub {
+    border-right: 1px solid #890000;
+    /* height: 24px; */
+    display: none !important;
+}
+
+.MultipleTabExt .Header .HeadWraper .Primary span {}
+
+.MultipleTabExt .Header .HeadWraper .Primary span a {
+    display: inline-block;
+    font: bold 15px/30px "Segoe UI", Tahoma, Verdana;
+    padding: 0 0 0 29px;
+    white-space: nowrap;
+    width: 93%;
+    background: url(https://storage-vnportal.vnpt.vn/cmu-khdn/6432/HinhAnh/icon-site.png) no-repeat;
+    line-height: 42px;
+    padding-left: 35px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    ;
+}
+
+.MultipleTabExt .Header .HeadWraper .Sub:last-child {
+    border-right: medium none;
+}
+
+.MultipleTabExt .Header .HeadWraper .Sub span a {
+    color: #bf0404;
+    font: bold 13px/17px arial;
+    padding: 0 5px 0 0;
+}
+
+.MultipleTabExt .Header .HeadWraper .Sub span a:hover {
+    text-decoration: underline;
+}
+
+.MultipleTabExt .Wrap .LeftCol {
+    padding-right: 25px;
+    width: 56%;
+}
+
+.MultipleTabExt .Wrap .LeftCol .first {
+    display: inline-block;
+    width: 100%;
+}
+
+.MultipleTabExt .Wrap .LeftCol .first .image {
+    border-radius: 2px;
+    float: left;
+    height: 120px;
+    margin: 0 10px 5px 5px;
+    width: 160px;
+}
+
+.MultipleTabExt .Wrap .LeftCol .first .title {
+    margin: 0;
+    padding: 0;
+}
+
+.MultipleTabExt .Wrap .LeftCol .first p {
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+    /*text-align: justify; */
+}
+
+.MultipleTabExt .Wrap .LeftCol .first .title a:hover {
+    color: #890000;
+}
+
+.MultipleTabExt .Wrap .LeftCol .first .title a {
+    color: #333;
+    font: bold 10pt Arial;
+    text-decoration: none;
+    display: block;
+}
+
+.MultipleTabExt .Wrap .LeftCol .clear {
+    clear: both;
+}
+
+.MultipleTabExt .Wrap .LeftCol .next {
+    color: black;
+    list-style: outside none square;
+    margin: 5px 0 10px 5px;
+    padding: 0;
+}
+
+.MultipleTabExt .Wrap .LeftCol .next li {
+    margin: 0;
+    padding: 3px 0;
+    list-style: none;
+    clear: both;
+}
+
+.MultipleTabExt .Wrap .LeftCol .next li a:hover {
+    color: #890000;
+}
+
+.MultipleTabExt .Wrap .LeftCol .next li a {
+    color: #222;
+    text-decoration: none;
+    display: block;
+    font-weight: 600;
+}
+
+.MultipleTabExt .Wrap .RightCol {
+    padding-right: 5px;
+    width: 43%;
+}
+
+.MultipleTabExt .Wrap .RightCol ul {
+    color: black;
+    list-style: square;
+    margin: 0;
+    padding: 0;
+}
+
+.MultipleTabExt .Wrap .RightCol ul li {
+    clear: both;
+    padding: 0 0 15px;
+    text-align: justify;
+    list-style: none;
+    /* border-bottom: 1px solid #0071a6; */
+    /* height: 80px; */
+}
+
+.MultipleTabExt .Wrap .RightCol ul li .image {
+    border-radius: 2px;
+    float: left;
+    margin-bottom: 17px;
+    margin-right: 8px;
+}
+
+.MultipleTabExt .Wrap .RightCol ul li a {
+    color: #222;
+    /*text-align: right; */
+    display: block;
+    font-weight: 600;
+}
+
+.MultipleTabExt .Wrap .RightCol ul li a:hover {
+    color: #890000;
+}
+
+span.showSubArticleImage {
+    display: inline-block;
+    float: left;
+    width: 100px;
+    padding-right: 5px;
+    /* height: 80px; */
+}
+
+span.showSubArticleImage img {
+    aspect-ratio: 4/3;
+    height: 80px;
+    object-fit: contain;
+}
+
+@media screen and (max-width:768px) {
+    .MultipleTabExt .Wrap .LeftCol {
+        width: 100%;
+        padding: 0 !important;
+    }
+    .MultipleTabExt .Wrap .LeftCol .first .image {
+        height: 300px !important;
+        width: 100% !important;
+    }
+    .MultipleTabExt .Wrap .LeftCol .first .title a {
+        font-size: 20px;
+    }
+    .MultipleTabExt .Wrap .LeftCol .first p {
+        font-style: italic;
+        padding: 0;
+    }
+    .MultipleTabExt .Wrap .LeftCol .next {
+        margin: 0 !important;
+    }
+    .MultipleTabExt .Wrap .RightCol {
+        padding: 0 !important;
+        width: 100%;
+    }
+    .MultipleTabExt .Wrap .RightCol ul {
+        margin: 0 !important;
+    }
+}

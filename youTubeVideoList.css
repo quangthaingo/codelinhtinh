@@ -1,0 +1,122 @@
+.YoutubeVideoList {
+    padding: 0 10px 10px 10px;
+    border: 1px solid #eeeeee;
+    border-top: 0;
+    margin-bottom: 15px;
+}
+
+.YoutubeVideoList .ListVideo>div>span {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.YoutubeVideoList ul {
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+
+.YoutubeVideoList li {
+    background: rgba(0, 0, 0, 0) url("Images/icon-video.gif") no-repeat scroll left 8px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 0px 0 0px 30px;
+    background-size: 25px 25px;
+}
+
+.YoutubeVideoList .ListVideo .VideoItem img {
+    display: none;
+    float: left;
+    height: 60px;
+    margin-right: 10px;
+    width: 80px;
+}
+
+.YoutubeVideoList li .title {
+    color: #333;
+    padding-right: 0;
+    font-size: 16px;
+    padding: 5px 0;
+    text-align: left;
+    line-height: 30px;
+}
+
+.YoutubeVideoList li+li .title {
+    border-top: 1px dotted #004f80;
+}
+
+.YoutubeVideoList .VideoHeader {
+    border-radius: 0 8px 0 0;
+    display: none;
+}
+
+.YoutubeVideoList .VideoHeader .Text {
+    color: #fff;
+    font-size: 13px;
+    padding-left: 15px;
+}
+
+.YoutubeVideoList .ListVideo .CurrentPage {}
+
+.YoutubeVideoList .ListVideo .NumberPage {
+    padding: 0 2px;
+}
+
+.YoutubeVideoList .ListVideo>span {
+    display: block;
+    margin: 0 5px;
+    text-align: right;
+}
+
+.YoutubeVideoList div.ListVideo>span {
+    text-align: center;
+    display: flex;
+    width: 100%;
+    margin: 5px 0px;
+    height: 25px;
+    padding: 10px 0 0 0;
+    align-items: center;
+    justify-content: flex-end;
+    border-top: 1px dotted red;
+}
+
+.YoutubeVideoList div.ListVideo span a {
+    color: #fff;
+    background: #9f224e87;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    overflow: hidden;
+    display: -webkit-inline-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+.YoutubeVideoList div.ListVideo span span {
+    color: #fff;
+    background: #9f224e;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 768px) {
+    .YoutubeVideoList .ListVideo {
+        padding: 10px !important;
+        border: 1px solid #eeeeee;
+        border-top: 10px;
+        margin-bottom: 10px;
+    }
+    .YoutubePlayer,
+    .YoutubeVideoList {
+        padding: 0 10px !important;
+        border: none !important;
+    }
+}

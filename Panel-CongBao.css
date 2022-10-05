@@ -1,0 +1,125 @@
+* {
+    text-rendering: geometricprecision;
+}
+
+#ctrl_128509_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbMobile,
+#ctrl_128520_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbMobile {
+    display: none;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background: url("Images/hot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.MainStructure {
+    background: url("Images/hot.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    margin: 0 auto;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.35);
+}
+
+.MainStructure .TopBanner {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.MainStructure .TopBar {
+    text-align: justify;
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.5);
+    /* background: white; */
+}
+
+.MainStructure .ContentBanner {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+
+.MainStructure .MainContent {
+    background: #fff;
+    margin: 0 auto;
+    vertical-align: top;
+}
+
+.MainStructure .LeftBar {
+    padding: 15px 10px;
+    vertical-align: top;
+    display: inline-block !important;
+}
+
+.MainStructure .ContentBar {
+    vertical-align: top;
+    background-color: #eee;
+}
+
+.MainStructure .FooterBanner {
+    background: url(https://storage-vnportal.vnpt.vn/test-atbm/2579/Hinhanh/trong-dong-o.png);
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #932727;
+}
+
+.MainStructure .FooterBar {
+    border-radius: 0 0 10px 10px;
+    display: inline-block;
+    text-align: justify;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: initial !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #ctrl_128509_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbMobile,
+    #ctrl_128520_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbMobile {
+        display: inline !important
+    }
+    #ctrl_128509_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbPC,
+    #ctrl_128520_91_dslOfficialGazetteNumber>tbody>tr>td>div>a.btn.btn-default.btn-download.cbPC {
+        display: none;
+    }
+    .MainStructure .MainContent {
+        width: 100% !important;
+    }
+    #ctrl_128509_91_tblDetail>tbody>tr>td.t3,
+    #ctrl_128509_91_tblDetail>tbody>tr:nth-child(1)>td.col3,
+    #ctrl_128520_91_tblDetail>tbody>tr>td.t3,
+    #ctrl_128520_91_tblDetail>tbody>tr:nth-child(1)>td.col3 {
+        min-width: 57% !important;
+    }
+    #ctrl_128520_91_tblDetail>tbody>tr>td.t2,
+    #ctrl_128520_91_tblDetail>tbody>tr>td.t6,
+    #ctrl_128520_91_tblDetail>tbody>tr:nth-child(1)>td.col2,
+    #ctrl_128520_91_tblDetail>tbody>tr:nth-child(1)>td.col6 {
+        display: none;
+    }
+    #ctrl_128509_91_tblDetail>tbody>tr>td.t2,
+    #ctrl_128509_91_tblDetail>tbody>tr>td.t6,
+    #ctrl_128509_91_tblDetail>tbody>tr:nth-child(1)>td.col2,
+    #ctrl_128509_91_tblDetail>tbody>tr:nth-child(1)>td.col6 {
+        display: none;
+    }
+    #ctrl_128509_91_tblDetail>tbody>tr:nth-child(1),
+    #ctrl_128509_91_tblDetail>tbody>tr,
+    #ctrl_128520_91_tblDetail>tbody>tr:nth-child(1),
+    #ctrl_128520_91_tblDetail>tbody>tr {
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .MainStructure .LeftBar {
+        padding: 0;
+        display: inline-block !important;
+    }
+    .bottom-tool {
+        display: none !important;
+    }
+}
