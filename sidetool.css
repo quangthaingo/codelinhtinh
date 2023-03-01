@@ -1,0 +1,73 @@
+.UIFooterControl {
+    margin: 0 auto;
+    position: relative;
+    width: 1200px;
+    border-radius: 0 0 8px 8px;
+    background-image: linear-gradient(#0081c8, #0a1e61);
+}
+
+.sidetool {
+    display: block !important;
+    z-index: 1;
+    position: fixed;
+    top: 155px;
+    right: 0;
+}
+
+.sidetool-tools {
+    margin: 0;
+    padding: 5px 0 5px 5px;
+    list-style: none;
+    width: 190px;
+    background: #fff;
+    border-radius: 30px 0 0 30px;
+    transform: translateX(155px);
+    transition: .3s ease-in-out;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, .3);
+}
+
+.sidetool-tools:hover {
+    transform: translateX(0);
+}
+
+.sidetool-tools li {
+    display: list-item;
+}
+
+.sidetool-tools li a {
+    display: block;
+    font-size: 0;
+    /* height: 50px; */
+    line-height: 50px;
+    transition: .3s;
+    color: black;
+    /* padding: 5px 0 5px 5px; */
+}
+
+.sidetool-tools li div {
+    display: inline-block;
+    text-align: center;
+}
+
+.sidetool-tools li div img {
+    border-radius: 30px 0 0 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .UIFooterControl img {
+        width: auto !important;
+    }
+    .sidetool {
+        top: 195px;
+        cursor: pointer;
+    }
+    .sidetool:hover .sidetool-tools {
+        transform: translateX(0);
+    }
+    .sidetool-tools li {
+        height: 40px !Important;
+    }
+    .sidetool-tools li a {
+        line-height: 40px;
+    }
+}

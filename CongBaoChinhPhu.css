@@ -1,0 +1,109 @@
+.container {
+    padding: 0;
+}
+
+.layout2 .container {
+    padding-bottom: 1px;
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #d4d4d4;
+}
+
+.article-item a {
+    color: #12598f;
+}
+
+.article-item a:hover {
+    text-decoration: none;
+    color: #187ac4;
+}
+
+#ctrl_128766_102_ctl00 {
+    padding: 0 10px 10px 10px;
+    background-color: #fff;
+    border: 1px solid #d4d4d4;
+}
+
+.paginations a {
+    color: #0b60a4;
+}
+
+tbody>tr.grid-pager>td>table>tbody>tr>td {
+    border: solid 0.01rem;
+    width: 21px;
+    text-align: center;
+    border-color: #C0C0C0;
+}
+
+tbody>tr.grid-pager>td>table>tbody>tr>td:nth-child(12) {
+    display: none;
+}
+
+tr,
+td {
+    line-height: 1.428571429;
+    vertical-align: top;
+}
+
+.col1 {
+    width: 50vw;
+    text-align: center;
+    border-right: solid 0.1rem;
+    border-color: #C0C0C0;
+}
+
+.col2 {
+    width: 25vw;
+    text-align: center;
+    border-right: solid 0.1rem;
+    border-color: #C0C0C0;
+}
+
+.col3 {
+    width: 25vw;
+    text-align: center;
+}
+
+tbody>tr.grid-pager>td {
+    display: flex;
+}
+
+#ctrl_128533_102_ctl00>div:nth-child(2)>table>tbody>tr {
+    border-top: solid 0.01rem;
+    border-left: solid 0.01rem;
+    border-right: solid 0.01rem;
+    border-color: #C0C0C0;
+}
+
+@media only screen and (max-width: 768px) {
+    .table-3-col td {
+        display: revert !important;
+        width: 43% !important;
+    }
+    tbody>tr.grid-pager>td>table>tbody>tr>td {
+        width: 10% !important;
+    }
+    #ctrl_128533_102_grvCongBao {
+        width: 92.5vw;
+    }
+    td .article-item .col3 {
+        display: none !important;
+    }
+    td .article-item .col1 {
+        width: 74% !important;
+    }
+    tbody>tr>td>table>tbody>tr>td.col2 {
+        width: 20%;
+    }
+    .col3 {
+        display: none;
+    }
+    .col2 {
+        width: 25.5% !important;
+    }
+    .col1 {
+        width: 69.5% !important;
+        text-align: center;
+        border-right: solid 0.1rem;
+        border-color: #C0C0C0;
+    }
+}
